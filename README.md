@@ -1,5 +1,6 @@
 # Project-Bennu-Babies
 Desafio encontrado na internet para consolidar conhecimentos e técnicas para desenvolvimento Web
+Link original: https://github.com/bennutv/desafio-frontend
 
 # Layout proposto no desafio
 ![image](https://github.com/rdeconti/Project-Bennu-Babies/blob/main/challenge/layout.png)
