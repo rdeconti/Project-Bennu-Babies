@@ -34,10 +34,3 @@ Esse teste foi criado para avaliarmos seus conhecimentos gerais como desenvolved
 4. O código deverá ser responsivo e multiplataforma, compatível com IE10+, Chrome, Safari e Firefox.
 
 * **Extra-points:** Qualquer inclusão de funcionalidade é bem vinda, sinta-se livre para aplicar alguma interação a mais ;)
-
-## Arquivos
-Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome e sobrenome ( modelo: nome-sobrenome ) e depois envie-nos o pull request. 
-
-Qualquer dúvida basta entrar em contato com o email: **bianca.alves@bennu.tv** :)
-
-**Que a força esteja com você o/**
