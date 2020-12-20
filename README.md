@@ -16,7 +16,7 @@ Esse teste foi criado para avaliarmos seus conhecimentos gerais como desenvolved
 | Nome do breakpoint | Largura mínima |
 |--------------------|----------------|
 | Phone              | 320px          |
-| Tablet             | 768px          | 
+| Tablet             | 768px          |
 | Desktop            | 1024px         |
 
 3. Você está livre para escolher a estrutura de diretórios da aplicação;
