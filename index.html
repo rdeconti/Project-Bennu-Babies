@@ -5,78 +5,118 @@ Programmer: Rosemeire Deconti
 Date: December/2020
 ********************************************************************************
 -->
+
 <!DOCTYPE html>
-<!--------------------------------------------------------------- START HTML -->
-<html lang="en" dir="ltr">
-  <!------------------------------------------------------------- START HEAD -->
+
+<!-- ------------------------------------------------------------ START HTML -->
+<html lang="pt-br" dir="ltr">
+
+  <!-- ---------------------------------------------------------- START HEAD -->
   <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Reset style sheets --------------------------------------------------->
-		<link rel="stylesheet" href="public/stylesheets/reset.css">
-    <!-- Style sheets --------------------------------------------------------->
-    <link rel="stylesheet" href="public/stylesheets/base.css">
-    <link rel="stylesheet" href="public/stylesheets/footer.css">
-    <link rel="stylesheet" href="public/stylesheets/form.css">
-    <link rel="stylesheet" href="public/stylesheets/header.css">
-    <link rel="stylesheet" href="public/stylesheets/icons.css">
-    <link rel="stylesheet" href="public/stylesheets/product-list.css">
-    <link rel="stylesheet" href="public/stylesheets/product-detail.css">
-    <link rel="stylesheet" href="public/stylesheets/tags.css">
-    <!-- Shearch icon --------------------------------------------------------->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- https://fonts.google.com/ -------------------------------------------->
+    <meta name="viewport" content="width=device-width" initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/stylesheets/reset.css">
+
+		<link rel="stylesheet" href="/stylesheets/base.css">
+		<link rel="stylesheet" href="/stylesheets/footer.css">
+		<link rel="stylesheet" href="/stylesheets/header.css">
+		<link rel="stylesheet" href="/stylesheets/loader.css">
+    <link rel="stylesheet" href="/stylesheets/menuIcon.css">
+    <link rel="stylesheet" href="/stylesheets/product.css">
+
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <!-- Windows tab name ----------------------------------------------------->
-    <title>SITE NAME TO NAVIGATOR TAB</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+    <title>Babies</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
   </head>
+
   <!------------------------------------------------------------- START BODY -->
   <body>
+
+    <!--------------------------------------------------------- START HEADER -->
     <header>
-      <!--------------------------------------------------------- START ???? -->
-      <section class="base-container">
-        <nav>
-          <h1>HEADER - FIRST</h1>
-        </nav>
-      </section>
-      <!--------------------------------------------------------- START ???? -->
-      <section class="base-container">
-        <nav>
-          <h1>HEADER - SECOND</h1>
-        </nav>
-      </section>
+
+      <div class="baseContainer">
+
+        <ul class="headerLine1">
+
+          <li>
+
+            <div class="menuIconContainer" onclick="myFunction(this)">
+              <div class="menuIconBar1"></div>
+              <div class="menuIconBar2"></div>
+              <div class="menuIconBar3"></div>
+            </div>
+
+          </li>
+
+          <li> <h1 class="baseHeader">Mamães a bordo</h1> </li>
+
+          <li>
+
+            <span class="glyphicon glyphicon-search baseGlyphicon"></span></p>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="baseContainer">
+
+        <ul class="headerLine2">
+
+          <li> <a class="headerLink" href="#">Início</a> </li>
+          <li> <a class="headerLink" href="#gravidas">Grávidas</a> </li>
+          <li> <a class="headerLink" href="#pediatria">Pediatria</a> </li>
+          <li> <a class="headerLink" href="#amamentacao">Amamentação</a> </li>
+
+        </ul>
+
+      </div>
+
     </header>
-    <!----------------------------------------------------- MESSAGES TO USER -->
-    <div class="base-message" id="base-message" >
-      <span>We have a problem! Please, try again!</span>
+
+    <div id="baseMessage" class="baseMessage">
+
+      <span>Tivemos um problema. Por favor, tente novamente!</span>
+
     </div>
-    <!----------------------------------------------------------- START MAIN -->
+
     <main>
-      <!--------------------------------------------------------- START ???? -->
-      <section class="base-container">
-          <h1>MAIN - FIRST</h1>
+
+      <section class="productContainer">
+
+        <ul class="productLine" id="productLine">
+
+        </ul>
+
       </section>
-      <!--------------------------------------------------------- START ???? -->
-      <section class="base-container">
-          <h1>MAIN - SECOND</h1>
-      </section>
+
     </main>
+
     <!--------------------------------------------------------- START FOOTER -->
-    <footer>
-      <!--------------------------------------------------------- START ???? -->
-      <section class="base-container">
-          <h1>FOOTER - FIRST</h1>
-      </section>
-      <!------------------------------------------------ START FOOTER SECOND -->
-      <section class="footer-data-2">
-        <p class="footer-paragraph-2">Projeto Seniores Digitais 2020</p>
-      </section>
+    <footer class="baseContainer">
+
+      <div class="footerData">
+
+        <p class="footerParagraph">Projeto Seniores Digitais 2020</p>
+
+      </div>
+
     </footer>
-    <!---------------------------------------------------- START FONTAWESOME -->
-    <!-- https://fontawesome.com/kits/c17de2d911/use?welcome=yes -------------->
-    <script src="https://kit.fontawesome.com/c17de2d911.js" crossorigin="anonymous"></script>
-    <!------------------------------------------------- START OWN JAVASCRIPT -->
-    <script src="javascripts/CODE.js"></script>
+
+    <!----------------------------------------------------- START JAVASCRIPT -->
+    <script src="javascripts/getDataJson.js" ></script>
+
   </body>
+
 </html>
