@@ -9,7 +9,13 @@
 **/
 
 /* ------------------------------------------------------------------ Classes */
-.footerData {
+footer{
+	width: auto;
+	height: 60px;
+	background-color: black;
+}
+
+.footer-data {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
@@ -19,10 +25,36 @@
 	padding-bottom: 40px;
 }
 
-.footerParagraph{
+.footer-paragraph1{
 	color: #FFFFFF;
 	font-size: 40px;
 	font-weight: 40px;
 	margin: 0 auto;
+	margin-bottom: 10px;
 	text-align: center;
+}
+
+.footer-paragraph2{
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.footer-paragraph3{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 15px;
 }
